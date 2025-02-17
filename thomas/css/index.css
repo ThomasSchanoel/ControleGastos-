@@ -1,0 +1,308 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(216, 216, 216);
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(216, 216, 216);
+    border-radius: 0px;
+    overflow: hidden;
+  }
+
+  .main {
+    background: #ffffff;
+    padding: 1rem;
+    margin: 10px 10px 100px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .main2 {
+    background: #ffffff;
+    padding: 1rem;
+    margin: 77px 10px 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .balance {
+    font-family: "Century Gothic";
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 38px;
+    font-weight: bold;
+
+  }
+
+  .balance-subtext {
+    border-top: 1px solid #e0e0e0;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: white;
+    border-top: 1px solid #e0e0e0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .footer-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    color: #888;
+  }
+
+  .link-icones:active {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #afafaf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  .link-titulo {
+    color: #006465;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .link-titulo:active {
+    color: #01b941;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Card Container */
+  .expenses-card {
+    width: auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto auto;
+  }
+
+  /* Header Section */
+  .expenses-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .expenses-header h3 {
+    font-size: 16px;
+    color: #006465;
+    margin: 0;
+  }
+
+  .dropdown {
+    font-size: 14px;
+    color: #999;
+    cursor: pointer;
+  }
+
+  /* Content Section */
+  .expenses-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0px;
+  }
+
+  .chart {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+
+  .circle {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background: conic-gradient(white 0%, white 100%);
+  }
+
+  .legend {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    color: gray;
+  }
+
+  .color-box {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+  }
+
+  /* Footer Section */
+  .expenses-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    color: gray;
+  }
+
+  .total-expenses {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+  }
+
+  .header {
+    position: relative;
+    background-image: url("https://tschanoel.com.br/controleGastos/icones/fundoHead.webp");
+    color: white;
+    padding: 90px;
+    text-align: left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .header h1 {
+    font-size: 23px;
+    margin: -50px -65px;
+  }
+
+  .header p {
+    font-size: 17px;
+    margin: 55px -48px 0;
+  }
+
+  .summary {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 10px;
+    margin: 40px 0px;
+    padding: 10px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+  }
+
+  .section {
+    padding: 20px;
+  }
+
+
+  .headerOutros {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .titleOutros {
+    font-size: 18px;
+    font-weight: bold;
+    color: #006465;
+  }
+
+  .account {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #f0f0f0;
+  }
+
+  .account:first-child {
+    border-top: none;
+  }
+
+  .account-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
+  .account-name {
+    font-size: 16px;
+    color: gray;
+  }
+
+  .balanceOutros {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+  }
+
+  .headerGastos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 8px;
+  }
+
+  .titleGastos {
+    font-size: 18px;
+    font-weight: bold;
+    color: #006465;
+  }
+
+  .balanceGastos {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+  }
+
+  .accountGastos {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    border-top: 1px solid #f0f0f0;
+  }
+
+  .accounts-container {
+    width: auto;
+    margin: 10px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }

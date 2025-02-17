@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(216, 216, 216);
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(216, 216, 216);
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.main {
+    background: #ffffff;
+    padding: 1rem;
+    margin: 10px 10px 100px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-image: url("https://tschanoel.com.br/controleGastos/icones/fundoHead.webp");
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+
+.header-title {
+    font-family: "Century Gothic";
+    margin: 0;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.balance {
+    font-family: "Century Gothic";
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 38px;
+    font-weight: bold;
+    
+}
+
+.balance-subtext {
+    border-top: 1px solid #e0e0e0;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.sort-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.sort-bar button {
+    background: none;
+    border: none;
+    color: #002366;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.transaction-list {
+    margin: -20px 5px 5px;
+    padding: 0;
+    list-style: none;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.transaction-details {
+    flex: 1;
+}
+
+.transaction-title {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding: 0 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.transaction-subtitle {
+    margin: 0;
+    font-size: 13px;
+    color: gray;
+}
+
+.transaction-amount {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: white;
+    border-top: 1px solid #e0e0e0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.footer-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    color: #888;
+}
+
+.link-icones:active {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #afafaf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.link-titulo {
+    color: #006465;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+.link-titulo:active {
+    color: #01b941;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+a{
+    -webkit-tap-highlight-color: transparent;
+}
